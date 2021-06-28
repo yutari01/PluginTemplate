@@ -1,0 +1,9 @@
+name: plugin
+main: xyz.umeo.plugin.Main
+api-version: '1.17'
+version: 1.0-17
+
+commands:
+  hello:
+    description: Say welcome message.
+    usage: /<command>
