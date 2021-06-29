@@ -4,6 +4,6 @@ api-version: '1.17'
 version: 1.0-17
 
 commands:
-  hello:
-    description: Say welcome message.
+  stopwatch:
+    description: Start stopwatch.
     usage: /<command>
