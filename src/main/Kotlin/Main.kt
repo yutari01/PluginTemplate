@@ -1,6 +1,5 @@
 package xyz.umeo.plugin
 
-import org.bukkit.Bukkit
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
@@ -9,15 +8,11 @@ import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.plugin.java.JavaPlugin
-import kotlin.concurrent.timer
 
-
-@Suppress("UNREACHABLE_CODE")
 open class Main: JavaPlugin(), Listener, CommandExecutor{
     override fun onEnable(){
         logger.info("Plugin 활성화 되었습니다.")
     }
-
     override fun onDisable(){
         logger.info("Plugin 비활성화 되었습니다.")
     }
