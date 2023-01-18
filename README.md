@@ -1,3 +1,2 @@
-# MCPlugin
-1.17 Kotlin Plugin Practice.
-Stopwatch is now available.
+# PluginTemplate
+1.19 Kotlin Plugin Practice.

@@ -1,13 +1,4 @@
-name: plugin
-main: xyz.umeo.plugin.Main
-api-version: '1.17'
-version: 1.0-17
-
-commands:
-  stopwatch:
-    description: Start stopwatch.
-    usage: /<command> <args>
-
-  heal:
-    description: Give Steak.
-    usage: /<command>
+name: PluginTemplate
+version: '${project.version}'
+main: io.yutari.plugintemplate.PluginTemplate
+api-version: 1.19
