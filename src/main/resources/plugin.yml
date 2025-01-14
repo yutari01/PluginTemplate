@@ -1,4 +1,5 @@
-name: PluginTemplate
-version: '${project.version}'
-main: io.yutari.plugintemplate.PluginTemplate
-api-version: '1.21.4'
+name: ${pluginName}
+version: ${pluginVersion}
+main: io.yutari.plugintemplate.MainClass
+description: ${pluginDescription}
+api-version: ${apiVersion}
