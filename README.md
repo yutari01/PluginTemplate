@@ -1,2 +1,2 @@
 # PluginTemplate
-1.19 Kotlin Plugin Practice.
+1.21.4 Kotlin Plugin Template.
